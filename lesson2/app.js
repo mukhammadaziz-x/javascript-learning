@@ -4,33 +4,33 @@
 // Number - sonlarni o'zida saqlovchi ma'lumot turi
 let age = 20;
 let price = 19.99;
-// console.log(age)
-// console.log(price)
+console.log(age)
+console.log(price)
 
 // String - o'zida belgilar ketma-ketligini saqlovchi ma'lumot turi
 let firstName = "Muhammadaziz";
-// console.log(firstName)
+console.log(firstName)
 
 // Boolean - mantiqiy ma'lumot turi bo'lib faqatgina true (rost) yoki false (yolg'on)
 // qiymatlarni qabul qilishi mumkin bo'lgan ma'lumot turi.
 let isUser = true
-// console.log(isUser)
+console.log(isUser)
 
 // Undefined - hali aniqlanmagan ma'lumot turi.
 let student;
-// console.log(student);
+console.log(student);
 
 // Null - bo'sh qiymatga ega bo'lgan ma'lumot turi.
 let school = null;
-// console.log(school);
+console.log(school);
 
 // Symbol - yagon (unique) va o'zgarmas qiymatga ega bo'luvchi ma'lumot turi.
 let id = Symbol('id');
-// console.log(id);
+console.log(id);
 
 //Bigint - katta sonlarni saqlashga mo'ljallangan ma'lumot turi.
 const alsoHuge = BigInt(325234234242423424);
-// console.log(alsoHuge);
+console.log(alsoHuge);
 
 // JavaScript dynamic typing funksiyasiga ega bo'lib uning yordamida o'zgaruvchi
 // saqlovchi ma'lumot turini ko'rsatmasdan ham qiymat saqlashimiz mumkin.
@@ -40,7 +40,7 @@ const alsoHuge = BigInt(325234234242423424);
 // aniqlash imkoniyati mavjud.
 
 let myAge = 24;
-// console.log(typeof myAge)
+console.log(typeof myAge)
 
 // Object turdagi qiymatlar
 // Object qiymat o'zgaruvchi murojaat qilgan manzilda ko'rsatilgan boshqa manzilda saqlanadi.
