@@ -1,36 +1,37 @@
-// Lesson 4: arifmetik operatorlar, operatorlar
+// Lesson 4: arifmetik operatorlar, solishtirish operatorlar, tayinlash operatorlar
 
-// let a = 5, b = 10;
-// console.log(a + b);
-// console.log(a - b);
-// console.log(a * b);
-// console.log(a / b);
-// console.log(a % b);
-// console.log(a++);
-// console.log(a);
-// console.log(++a);
-// console.log(a);
-// console.log(b--);
-// console.log(b);
-// console.log(--b);
-// console.log(b);
+// ARIFMETIK OPERATORLAR
+let a = 5, b = 10;
+console.log(a + b); // 15
+console.log(a - b); // -5
+console.log(a * b); // 50
+console.log(a / b); // 0.5
+console.log(a % b); // 5
+console.log(a++); // 5
+console.log(a); // 6
+console.log(++a); // 6 (7)
+console.log(a); // 7
+console.log(b--); // 10
+console.log(b); // 9
+console.log(--b); // 9 (8)
+console.log(b); // 8
 
+// SOLISHTIRISH OPERATORLAR
+let a = 5, b = 10, c = '5';
+const z = a
 
-// let a = 5, b = 10, c = '5';
-// const z = a
+console.log(a == c); // true
+console.log(a === c); // false
+console.log(a == z); // true
+console.log(a === z); // true
+console.log(a != b); // true
+console.log(a != z); // false
+console.log(a > b); // false
+console.log(a < b); // true
+console.log(a >= b); // false
+console.log(a <= b); // true
 
-// console.log(a == c); // true
-// console.log(a === c); // false
-// console.log(a == z); // true
-// console.log(a === z); // true
-// console.log(a != b); // true
-// console.log(a != z); // false
-// console.log(a > b); // false
-// console.log(a < b); // true
-// console.log(a >= b); // false
-// console.log(a <= b); // true
-
-
+// TAYINLASH OPERATORLAR
 let a = 5, b = 10, c = 15;
 
 console.log(a);
