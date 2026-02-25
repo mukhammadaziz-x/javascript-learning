@@ -13,3 +13,15 @@
 // // let lastName = "O"tkir"
 // console.log(surname);
 
+// CONCATENATION
+// Qo'shish (+) operatoridan foydalangan holda, string'larni qo'shish
+// ya'ni concatenation qilish imkoniyati mavjud.
+
+// let name = 'Muhammadali';
+// let message = 'Hi ' + name + ' !';
+// console.log(message)
+
+// let name = 'Mohinur'
+// let message = `Hi ${name}`; // backtick
+// console.log(message);
+
