@@ -25,3 +25,21 @@
 // let message = `Hi ${name}`; // backtick
 // console.log(message);
 
+// THEME-2: MANTIQIY OPERATORLAR
+// BOOLEAN LOGIC (mantiq), LOGICAL (mantiqiy) OPERATORS
+
+// const age = 10;
+// const a = age > 18; // false
+// const b = age < 20; // true
+
+// // AND operator
+// console.log(a && b); // false
+
+// // OR operator
+// console.log(a || b); // true
+
+// // NOT operator
+// console.log(!a); // true
+// console.log(!b) // false
+
+
