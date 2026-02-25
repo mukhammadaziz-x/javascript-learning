@@ -42,4 +42,17 @@
 // console.log(!a); // true
 // console.log(!b) // false
 
+// MINI TASK
+// const htmlPassed = true;
+// const cssPassed = false;
+// let message = '';
 
+// if (htmlPassed && cssPassed) {
+//     message = 'Siz Bootstrap kursini boshlashingiz mumkin!'
+// } else if (htmlPassed || cssPassed) {
+//     message = 'Iltimos ikkinchi kursni ham tugating.'
+// } else {
+//     message = 'Iltimos birinchi ikkala kursni tugating.'
+// }
+
+// console.log(message)
