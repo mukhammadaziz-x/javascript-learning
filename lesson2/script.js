@@ -21,9 +21,9 @@
 // let message = 'Hi ' + name + ' !';
 // console.log(message)
 
-// let name = 'Mohinur'
-// let message = `Hi ${name}`; // backtick
-// console.log(message);
+let name = 'Mohinur'
+let message = `Hi ${name}`; // backtick
+console.log(message);
 
 // THEME-2: MANTIQIY OPERATORLAR
 // BOOLEAN LOGIC (mantiq), LOGICAL (mantiqiy) OPERATORS
