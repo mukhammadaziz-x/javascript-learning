@@ -6,16 +6,33 @@
 // imkoniyati mavjud. Ba'zi bir maxsus belgilardan tashkil topgan matnlarda
 // odatda ikkitalik qo'shtirnoqlardan foydalaniladi.
 
+
 // let name = 'Otabek';
-// // let firstName = 'Og'abek'
 // console.log(name);
 // let surname = "Haydarov";
-// // let lastName = "O"tkir"
 // console.log(surname);
+
+
+// let name = 'Otabek';
+// let firstName = 'Og\'abek'
+// console.log(name);
+// let surname = "Haydarov";
+// let buyLaptop = "Men \"Dell\" modelidagi notebookni sotib oldim."
+// console.log(surname);
+// console.log(buyLaptop)
 
 // CONCATENATION
 // Qo'shish (+) operatoridan foydalangan holda, string'larni qo'shish
 // ya'ni concatenation qilish imkoniyati mavjud.
+
+// let name = 'Muhammadali';
+// let message = 'Hi ' + name + '!';
+// console.log(message)
+
+// let name = 'Mohinur'
+// let message = `Hi ${name}!`; // backtick
+// console.log(message);
+
 
 // let name = 'Muhammadali';
 // let message = 'Hi ' + name + ' !';
@@ -27,6 +44,7 @@
 
 // THEME-2: MANTIQIY OPERATORLAR
 // BOOLEAN LOGIC (mantiq), LOGICAL (mantiqiy) OPERATORS
+
 
 // const age = 10;
 // const a = age > 18; // false
@@ -48,7 +66,7 @@
 // let message = '';
 
 // if (htmlPassed && cssPassed) {
-//     message = 'Siz Bootstrap kursini boshlashingiz mumkin!'
+//     message = 'Siz JavaScript kursini boshlashingiz mumkin!'
 // } else if (htmlPassed || cssPassed) {
 //     message = 'Iltimos ikkinchi kursni ham tugating.'
 // } else {
@@ -71,10 +89,19 @@
 // const name = 'Muslima';
 // console.log(Number(name)); // NaN
 
+// const age = '23'; // String
+// console.log(age); // String
+// console.log(Number(age)); // Number
+// console.log(age + 1); // 231 (concatenation)
+// console.log (Number(age) + 1); // 24
+// const name = 'Ulugbek';
+// console.log(Number(name)); // NaN
+
 
 // const year = 2026; // Number
 // console.log(year); // Number
 // console.log(String(year)); // String
+// console.log(typeof year)
 
 // TYPE COERCION
 // console.log('Men ' + 2011 + 'chi yilda tavallud topganman.') // auto string conversion
