@@ -108,9 +108,9 @@
 // console.log(Boolean('false'));
 
 // Misol uchun
-const name = '';
-if (name) {
-    console.log('Sizning ismingiz: ' + name);
-} else {
-    console.log('Ismingizni kiriting: ')
-}
+// const name = '';
+// if (name) {
+//     console.log('Sizning ismingiz: ' + name);
+// } else {
+//     console.log('Ismingizni kiriting: ')
+// }
