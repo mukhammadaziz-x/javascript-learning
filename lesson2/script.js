@@ -107,3 +107,10 @@
 // console.log(Boolean('0'));
 // console.log(Boolean('false'));
 
+// Misol uchun
+const name = '';
+if (name) {
+    console.log('Sizning ismingiz: ' + name);
+} else {
+    console.log('Ismingizni kiriting: ')
+}
