@@ -56,3 +56,6 @@
 // }
 
 // console.log(message)
+
+// THEME-3: TURNI (type) o'zgartirish
+// Type conversion, type coercion, truthy and falsy
