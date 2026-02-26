@@ -59,3 +59,18 @@
 
 // THEME-3: TURNI (type) o'zgartirish
 // Type conversion, type coercion, truthy and falsy
+
+// const age = '23'; // String
+// console.log(age); // String
+// console.log(Number(age)); // Number
+
+// console.log(age + 1); // 231 (concatenation)
+// console.log(Number(age) + 1); // 24
+
+// const name = 'Muslima';
+// console.log(Number(name)); // NaN
+
+
+const year = 2026;
+console.log(year);
+console.log(String(year));
