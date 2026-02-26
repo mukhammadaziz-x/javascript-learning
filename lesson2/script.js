@@ -60,6 +60,7 @@
 // THEME-3: TURNI (type) o'zgartirish
 // Type conversion, type coercion, truthy and falsy
 
+// TYPE CONVERSION
 // const age = '23'; // String
 // console.log(age); // String
 // console.log(Number(age)); // Number
@@ -71,6 +72,38 @@
 // console.log(Number(name)); // NaN
 
 
-const year = 2026;
-console.log(year);
-console.log(String(year));
+// const year = 2026; // Number
+// console.log(year); // Number
+// console.log(String(year)); // String
+
+// TYPE COERCION
+// console.log('Men ' + 2011 + 'chi yilda tavallud topganman.') // auto string conversion
+// console.log('30' - '10' - 5); // auto number conversion
+
+// TRUTHY AND FALSY
+// Fasly ko'rinishiga keladigan qiymatlar
+
+// false
+// 0
+// ''
+// undefined
+// null
+// NaN
+// 0n
+
+// console.log(Boolean(false));
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+// console.log(Boolean(0n));
+
+// Truthy qiymatlar
+// console.log(Boolean('Asadbek'));
+// console.log(Boolean(18));
+// console.log(Boolean([]));
+// console.log(Boolean({}));
+// console.log(Boolean('0'));
+// console.log(Boolean('false'));
+
