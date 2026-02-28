@@ -57,10 +57,10 @@
 // console.log(kopaytirish(1, 5, 6))
 
 
-// Funksiyalar bo'yicha amaliyot:
-// 1) Online do'kon narxini hisoblash funksiyasi
+// // Funksiyalar bo'yicha amaliyot:
+// // 1) Online do'kon narxini hisoblash funksiyasi
 
-// 1. Declaration funksiya
+// // 1. Declaration funksiya
 // function narxniHisoblashDEC(narx) {
 //     const soliq = narx * 0.12 // 12 foiz soliq
 //     return narx + soliq
@@ -76,18 +76,16 @@
 
 // // 3. Arrow funksiya
 // const narxniHisoblashARR = narx => narx + (narx * 0.12);
-
 // console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashARR(100000)} so'm`)
 
 // // const narxniHisoblash = narx => {
 // //     soliq = narx * 0.12;
 // //     return soliq + narx
 // // };
-
 // // console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashARR(100000)} so'm`)
 
-// 2) Salom berish funksiyasi
-// 1. Declaration funksiya
+// // 2) Salom berish funksiyasi
+// // 1. Declaration funksiya
 // function salomBerishDEC(name) {
 //     return `Assalamu alaykum, ${name}!`;
 // }
@@ -101,11 +99,10 @@
 
 // // 3. Arrow funksiya
 // const salomBerishARR = (name) => `Assalamu alaykum, ${name}!`;
-
 // console.log(salomBerishARR('Husan'));
 
-// 3) Yoshni topish funksiyasi
-// 1. Function Declaration
+// // 3) Yoshni topish funksiyasi
+// // 1. Function Declaration
 // function yoshTopishDEC(t_yil) {
 //     return 2026 - t_yil;
 // }
@@ -120,7 +117,3 @@
 // // 3. Arrow funksiya
 // const yoshTopishARR = t_yil => 2026 - t_yil;
 // console.log(`Sizning yoshingiz: ${yoshTopishARR(2020)} da`)
-
-const salomBerishARR = (name) => `Assalamu alaykum, ${name}!`;
-
-console.log(salomBerishARR('Mohinur'));
