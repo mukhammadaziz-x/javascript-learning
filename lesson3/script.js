@@ -13,6 +13,12 @@
 // console.log(sonQosh(10, 30));
 // console.log(sonQosh(5, 10));
 
+// function salomBer(name) {
+//     return `Assalamu alaykum, ${name}!`
+// }
+
+// console.log(salomBer('Muhammadaziz'))
+
 // Funksiyani e'lon qilish:
 // Declaration funksiya
 // console.log(kvadrat(5));
@@ -43,76 +49,78 @@
 // console.log(kvadrat(5));
 
 // 3. Agar funksiya hech qanday parametrga ega bo'lmasa.
-const print = () => console.log('Hello my friends!');
-print();
+// const print = () => console.log('Hello my friends!');
+// print();
 
 // 4. Ikki yoki undan ko'p parametrlarga ega bo'lgan funksiya uchun, parametrlar qavslar ichida bo'lishi shart
-const volume = (a, b, c) => a * b * c;
-console.log(volume(1, 5, 6))
-
+// const kopaytirish = (a, b, c) => a * b * c;
+// console.log(kopaytirish(1, 5, 6))
 
 
 // Funksiyalar bo'yicha amaliyot:
 // 1) Online do'kon narxini hisoblash funksiyasi
 
 // 1. Declaration funksiya
-// function narxniHisoblash(narx) {
+// function narxniHisoblashDEC(narx) {
 //     const soliq = narx * 0.12 // 12 foiz soliq
 //     return narx + soliq
 // }
+// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashDEC(150000)} so'm`)
 
-// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblash(150000)} so'm`)
-
-// 2. Expression funksiya
-// const narxniHisoblash = function(narx) {
+// // 2. Expression funksiya
+// const narxniHisoblashEXP = function(narx) {
 //     const soliq = narx * 0.12;
 //     return narx + soliq;
 // }
+// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashEXP(200000)} so'm`)
 
-// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblash(200000)} so'm`)
+// // 3. Arrow funksiya
+// const narxniHisoblashARR = narx => narx + (narx * 0.12);
 
-// 3. Arrow funksiya
-// const narxniHisoblash = (narx) => narx + (narx * 0.12);
+// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashARR(100000)} so'm`)
 
-// console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblash(100000)} so'm`)
+// // const narxniHisoblash = narx => {
+// //     soliq = narx * 0.12;
+// //     return soliq + narx
+// // };
 
+// // console.log(`Mahsulot summasi (narx + soliq): ${narxniHisoblashARR(100000)} so'm`)
 
 // 2) Salom berish funksiyasi
 // 1. Declaration funksiya
-// function salomBerish(name) {
+// function salomBerishDEC(name) {
 //     return `Assalamu alaykum, ${name}!`;
 // }
+// console.log(salomBerishDEC('Mohinur'));
 
-// console.log(salomBerish('Mohinur'));
-
-// 2. Expression funksiya
-// const salomBerish = function(name) {
+// // 2. Expression funksiya
+// const salomBerishEXP = function(name) {
 //     return `Assalamu alaykum, ${name}!`;
 // }
+// console.log(salomBerishEXP('Munisa'));
 
-// console.log(salomBerish('Munisa'));
+// // 3. Arrow funksiya
+// const salomBerishARR = (name) => `Assalamu alaykum, ${name}!`;
 
-// 3. Arrow funksiya
-// const salomBerish = name => `Assalamu alaykum, ${name}!`;
-
-// console.log(salomBerish('Husan'));
+// console.log(salomBerishARR('Husan'));
 
 // 3) Yoshni topish funksiyasi
 // 1. Function Declaration
-// function yoshTopish(t_yil) {
+// function yoshTopishDEC(t_yil) {
 //     return 2026 - t_yil;
 // }
+// console.log(`Sizning yoshingiz: ${yoshTopishDEC(1974)} da`)
 
-// console.log(`Sizning yoshingiz: ${yoshTopish(2008)}`)
-
-// 2. Expression funksiya
-// const yoshTopish = function(t_yil) {
+// // 2. Expression funksiya
+// const yoshTopishEXP = function(t_yil) {
 //     return 2026 - t_yil;
 // }
+// console.log(`Sizning yoshingiz: ${yoshTopishEXP(1995)} da`)
 
-// console.log(`Sizning yoshingiz: ${yoshTopish(1995)}`)
+// // 3. Arrow funksiya
+// const yoshTopishARR = t_yil => 2026 - t_yil;
+// console.log(`Sizning yoshingiz: ${yoshTopishARR(2020)} da`)
 
-// 3. Arrow funksiya
-// const yoshTopish = (t_yil) => 2026 - t_yil;
+const salomBerishARR = (name) => `Assalamu alaykum, ${name}!`;
 
-// console.log(`Sizning yoshingiz: ${yoshTopish(2020)}`)
+console.log(salomBerishARR('Mohinur'));
