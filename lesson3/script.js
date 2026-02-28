@@ -1,3 +1,5 @@
+// console.log(kvadrat(5));
+
 // LESSON 3
 // Mavzu-1: Funksiya va uni e'lon qilish (function declaration)
 // Mavzu-2: Arrow funksiya va expression funksiya
@@ -5,24 +7,48 @@
 
 // Mavzu-1: Funksiya va uni e'lon qilish
 // Funksiya:
+// function sonQosh(son1, son2) {
+//     return son1 + son2
+// }
+// console.log(sonQosh(10, 30));
+// console.log(sonQosh(5, 10));
 
 // Funksiyani e'lon qilish:
-
 // Declaration funksiya
+// console.log(kvadrat(5));
+// console.log(kvadrat(5));
+
+// function kvadrat(son) {
+//     return son * son;
+// }
 
 // Expression funksiya
+// console.log(kvadrat(10));
+
+// const kvadrat = function(son) {
+//     return son * son;
+// }
+// console.log(kvadrat(10));
 
 // Arrow funksiya
 // 1. Expression funksiyaga juda o'xshash bo'lib, faqatgina arrow (=>) kalit so'ziga ega bo'ladi.
-
+// const qoshish = (son) => {
+//     console.log('Salom')
+//     return son + son
+// }
+// console.log(qoshish(15));
 
 // 2. Agar funksiya tana qismi bir qatordan iborat bo'lsa, return kalit so'zini yozmaslik mumkin.
-
+// const kvadrat = son => son * son;
+// console.log(kvadrat(5));
 
 // 3. Agar funksiya hech qanday parametrga ega bo'lmasa.
-
+const print = () => console.log('Hello my friends!');
+print();
 
 // 4. Ikki yoki undan ko'p parametrlarga ega bo'lgan funksiya uchun, parametrlar qavslar ichida bo'lishi shart
+const volume = (a, b, c) => a * b * c;
+console.log(volume(1, 5, 6))
 
 
 
@@ -57,7 +83,7 @@
 //     return `Assalamu alaykum, ${name}!`;
 // }
 
-// console.log(salomBerish('Otabek'));
+// console.log(salomBerish('Mohinur'));
 
 // 2. Expression funksiya
 // const salomBerish = function(name) {
