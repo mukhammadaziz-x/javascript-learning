@@ -3,7 +3,7 @@
 // o'zgartirish, o'chirish, array uzunligini aniqlash.
 // Mavzu-2: 
 
-
+// 1. Array yaratish
 // const languages = ['js', 'java', 'go'];
 // console.log(languages);
 
@@ -23,14 +23,14 @@
 // aralash array
 // const aralash = ['Javascrip', 2, false, null]
 
-// Array elementini olish
+// 2. Array elementini olish
 // 
 // const helloArray = ['h', 'e', 'l', 'l', 'o']
 
 // console.log(helloArray[0])
 // console.log(helloArray[4])
 
-// Array element qo'shish
+// 3. Array element qo'shish
 // push() metodi yordamida array oxiriga element qo'shish mumkin.
 // let languages = ['js', 'python', 'go'];
 
@@ -44,4 +44,33 @@
 // languages.unshift('python')
 
 // console.log(languages)
+
+// 4. Array elementini o'zgartirish
+// mobile_languages = ['dart', 'flutter', 'python']
+
+// mobile_languages[2] = 'swift'
+
+// console.log(mobile_languages)
+
+// 5. Array elementini o'chirish
+// pop() metodidan foydalanib array ichidagi oxirgi elementni o'chirish
+// imkoniyati mavjud. 
+// const languages = ['js', 'python', 'java', 'go']
+
+// languages.pop()
+
+// console.log(languages)
+// const ochirilganTil = languages.pop()
+
+// shift() metotidan foydalanib array ichidagi birinchi elementni
+// o'chirish imkoniyati mavjud. Metod o'chirilgan elementni qaytaradi.
+// const languages = ['js', 'java', 'ruby', 'swift']
+// languages.shift()
+
+// console.log(languages)
+
+// // 6. Array uzunligini aniqlash
+// const languages = ['js', 'dart', 'ruby', 'swift']
+
+// console.log(languages.length)
 
