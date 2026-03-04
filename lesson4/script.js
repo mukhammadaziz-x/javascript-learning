@@ -1,7 +1,7 @@
 // LESSON 4
 // Mavzu-1: Array, uni yaratish, elementlarni olish, qo'shish 
 // o'zgartirish, o'chirish, array uzunligini aniqlash.
-// Mavzu-2: 
+// Mavzu-2: Array metodlari 
 
 // 1. Array yaratish
 // const languages = ['js', 'java', 'go'];
@@ -74,3 +74,14 @@
 
 // console.log(languages.length)
 
+// Array metodlari:
+// concat() metodi
+const array1 = [1, 4];
+const array2 = [2, 3, 7];
+const natija = array1.concat(array2);
+
+console.log(natija)
+
+const find = (number) => number === 2;
+const found = natija.find(find);
+console.log(found)
