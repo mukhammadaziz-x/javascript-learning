@@ -12,3 +12,18 @@ console.log(result);
 const findValue = (number) => number === 2;
 const foundValue = result.find(findValue);
 console.log(foundValue);
+
+// filter()
+let filterValues = number => number > 5;
+filterValues = result.filter(filterValues)
+
+console.log(filterValues)
+
+// map()
+const mapValues = number => 'Son: ' + number;
+const mappedValues = result.map(mapValues);
+
+console.log(mappedValues);
+
+// sort()
+ 
