@@ -111,12 +111,7 @@
 // product1.expiryDate()
 
 // Object.keys()
-// const product2 = {
-//     productName: 'Laptop',
-//     productPrice: 12500000
-// }
 
-// console.log(Object.keys(product2))
 
 // Object.values()
 
