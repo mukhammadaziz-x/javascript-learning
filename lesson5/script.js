@@ -31,12 +31,6 @@
 
 
 // Mavzu-2: Object
-// const developer = {
-//     name: 'Muhammadaziz',
-//     age: 19
-// }
-
-// console.log(developer)
 
 
 // Object e'lon qilish (yaratish)
