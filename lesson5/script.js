@@ -26,8 +26,6 @@
 // console.log(mappedValues);
 
 // // sort()
-// result.sort()
-// console.log(result)
 
 
 // Mavzu-2: Object
