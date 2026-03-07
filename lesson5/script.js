@@ -79,15 +79,7 @@
 // console.log(developer)
 
 // Object method'lari
-// const person = {
-//     name: 'Sarvinoz',
-//     age: 32,
-//     greeting: function() {         // method
-//         console.log('Hello!');
-//     }
-// }
 
-// person.greeting()
 
 // Mavzu-3: Object metodlari
 // Method
