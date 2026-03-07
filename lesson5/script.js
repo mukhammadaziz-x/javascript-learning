@@ -91,13 +91,7 @@
 
 // Mavzu-3: Object metodlari
 // Method
-// const person = {
-//     name: 'Sarvinoz',
-//     age: 32,
-//     greeting: function() {         // method
-//         console.log('Hello!');
-//     }
-// }
+
 
 // this kalit so'zi
 
