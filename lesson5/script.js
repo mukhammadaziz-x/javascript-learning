@@ -59,12 +59,7 @@
 // console.log(developer.name); // Ahmad
 
 // Qavs [] belgisidan foydalanib
-// const developer = {
-//     name: 'Toshmat',
-//     age: 37
-// }
 
-// console.log(developer['name'])
 
 // Nested (ichma-ich) objectlar
 
