@@ -20,8 +20,7 @@
 // console.log(filterValues)
 
 // // map()
-// const mapValues = number => 'Son: ' + number;
-// const mappedValues = result.map(mapValues);
+
 
 // console.log(mappedValues);
 
