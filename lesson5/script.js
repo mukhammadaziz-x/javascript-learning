@@ -40,15 +40,11 @@
 
 
 // Object e'lon qilish (yaratish)
-// const developer = {
-//     name: 'Muhammadaziz',
-//     age: 19
-// }
 
-// console.log(typeof developer)
 
 // Object xossasini olish
 // Xossaning qiymatini kalit yordamida olish imkoniyati mavjud.
+
 
 // Dot (.) belgisidan foydalanib
 
