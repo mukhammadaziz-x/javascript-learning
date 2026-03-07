@@ -51,12 +51,7 @@
 // Xossaning qiymatini kalit yordamida olish imkoniyati mavjud.
 
 // Dot (.) belgisidan foydalanib
-// const developer = {
-//     name: 'Ahmad',
-//     age: 96,
-// }
 
-// console.log(developer.name); // Ahmad
 
 // Qavs [] belgisidan foydalanib
 
