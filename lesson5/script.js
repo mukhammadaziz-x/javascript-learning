@@ -9,9 +9,7 @@
 // console.log(result);
 
 // // find()
-// const findValue = (number) => number === 2;
-// const foundValue = result.find(findValue);
-// console.log(foundValue);
+
 
 // // filter()
 
