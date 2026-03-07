@@ -1,6 +1,7 @@
 // // LESSON 5
 // // Mavzu-1: ARRAY metodlari
 
+
 // // concat()
 
 
@@ -12,8 +13,6 @@
 
 // // map()
 
-
-// console.log(mappedValues);
 
 // // sort()
 
