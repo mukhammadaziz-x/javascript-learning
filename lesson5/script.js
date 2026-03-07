@@ -67,16 +67,7 @@
 // console.log(developer['name'])
 
 // Nested (ichma-ich) objectlar
-// const developer = {
-//     name: 'Jamshid',
-//     age: 20,
-//     address: {
-//         country: 'Uzbekistan',
-//         city: 'Tashkent',
-//         house: 49
-//     }
-// }
-// console.log(developer)
+
 
 // Object method'lari
 
