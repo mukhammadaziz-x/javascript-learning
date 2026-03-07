@@ -14,10 +14,7 @@
 // console.log(foundValue);
 
 // // filter()
-// let filterValues = number => number > 5;
-// filterValues = result.filter(filterValues)
 
-// console.log(filterValues)
 
 // // map()
 
