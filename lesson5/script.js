@@ -119,11 +119,6 @@
 // console.log(Object.keys(product2))
 
 // Object.values()
-const product3 = {
-    productName: 'Keyboard',
-    productPrice: 300000
-}
 
-console.log(Object.values(product3))
 
 // Object.entries()
