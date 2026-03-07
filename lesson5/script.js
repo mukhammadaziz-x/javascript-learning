@@ -100,15 +100,7 @@
 // }
 
 // this kalit so'zi
-// const product1 = {
-//     productName: 'Milk',
-//     productPrice: 13000,
-//     productQuantity: 3,
-//     expiryDate: function() {
-//         console.log(`${this.productName} - 2027.01.01 sanasigacha amal qiladi`)
-//     }
-// }
-// product1.expiryDate()
+
 
 // Object.keys()
 
