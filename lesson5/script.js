@@ -88,3 +88,42 @@
 // }
 
 // person.greeting()
+
+// Mavzu-3: Object metodlari
+// Method
+// const person = {
+//     name: 'Sarvinoz',
+//     age: 32,
+//     greeting: function() {         // method
+//         console.log('Hello!');
+//     }
+// }
+
+// this kalit so'zi
+// const product1 = {
+//     productName: 'Milk',
+//     productPrice: 13000,
+//     productQuantity: 3,
+//     expiryDate: function() {
+//         console.log(`${this.productName} - 2027.01.01 sanasigacha amal qiladi`)
+//     }
+// }
+// product1.expiryDate()
+
+// Object.keys()
+// const product2 = {
+//     productName: 'Laptop',
+//     productPrice: 12500000
+// }
+
+// console.log(Object.keys(product2))
+
+// Object.values()
+const product3 = {
+    productName: 'Keyboard',
+    productPrice: 300000
+}
+
+console.log(Object.values(product3))
+
+// Object.entries()
