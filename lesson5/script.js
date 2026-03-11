@@ -96,18 +96,26 @@ const developer = {
 // designer.greeting();
 
 // Object.keys()
-const product2 = {
-    productName: 'Laptop',
-    productPrice: 12500000
-}
-console.log(Object.keys(product2));
+// const product2 = {
+//     productName: 'Laptop',
+//     productPrice: 12500000
+// }
+// console.log(Object.keys(product2));
 
 
-// Object.values()
-const product3 = {
-    productName: 'Laptop',
-    productPrice: 12500000
-}
-console.log(Object.values(product3))
+// // Object.values()
+// const product3 = {
+//     productName: 'Laptop',
+//     productPrice: 12500000
+// }
+// console.log(Object.values(product3))
 
 // Object.entries()
+
+// numbers = [1, 2, 5, 9, 4, 3, -4]
+// console.log(numbers)
+
+// numbers[3] = -4
+// numbers[6] = 9
+
+// console.log(numbers)
